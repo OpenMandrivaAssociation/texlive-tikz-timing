@@ -6,7 +6,7 @@
 # catalog-version 0.7d
 Name:		texlive-tikz-timing
 Version:	0.7d
-Release:	2
+Release:	3
 Summary:	Easy generation of timing diagrams as tikz pictures
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pgf/contrib/tikz-timing
