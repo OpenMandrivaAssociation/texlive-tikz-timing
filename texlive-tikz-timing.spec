@@ -1,12 +1,6 @@
-# revision 21013
-# category Package
-# catalog-ctan /graphics/pgf/contrib/tikz-timing
-# catalog-date 2011-01-09 23:18:09 +0100
-# catalog-license lppl
-# catalog-version 0.7d
 Name:		texlive-tikz-timing
-Version:	0.7d
-Release:	10
+Version:	0.7f
+Release:	1
 Summary:	Easy generation of timing diagrams as tikz pictures
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pgf/contrib/tikz-timing
@@ -38,23 +32,10 @@ larger timing diagrams.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/tikz-timing/tikz-timing-advnodes.sty
-%{_texmfdistdir}/tex/latex/tikz-timing/tikz-timing-arrows.sty
-%{_texmfdistdir}/tex/latex/tikz-timing/tikz-timing-beamer.sty
-%{_texmfdistdir}/tex/latex/tikz-timing/tikz-timing-clockarrows.sty
-%{_texmfdistdir}/tex/latex/tikz-timing/tikz-timing-columntype.sty
-%{_texmfdistdir}/tex/latex/tikz-timing/tikz-timing-counters.sty
-%{_texmfdistdir}/tex/latex/tikz-timing/tikz-timing-either.sty
-%{_texmfdistdir}/tex/latex/tikz-timing/tikz-timing-ifsym.sty
-%{_texmfdistdir}/tex/latex/tikz-timing/tikz-timing-interval.sty
-%{_texmfdistdir}/tex/latex/tikz-timing/tikz-timing-nicetabs.sty
-%{_texmfdistdir}/tex/latex/tikz-timing/tikz-timing-overlays.sty
-%{_texmfdistdir}/tex/latex/tikz-timing/tikz-timing.sty
-%doc %{_texmfdistdir}/doc/latex/tikz-timing/README
-%doc %{_texmfdistdir}/doc/latex/tikz-timing/tikz-timing.pdf
+%{_texmfdistdir}/tex/latex/tikz-timing
+%doc %{_texmfdistdir}/doc/latex/tikz-timing
 #- source
-%doc %{_texmfdistdir}/source/latex/tikz-timing/tikz-timing.dtx
-%doc %{_texmfdistdir}/source/latex/tikz-timing/tikz-timing.ins
+%doc %{_texmfdistdir}/source/latex/tikz-timing
 
 #-----------------------------------------------------------------------
 %prep
@@ -65,16 +46,3 @@ larger timing diagrams.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Thu Jan 05 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.7d-2
-+ Revision: 756914
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.7d-1
-+ Revision: 719747
-- texlive-tikz-timing
-- texlive-tikz-timing
-- texlive-tikz-timing
-
