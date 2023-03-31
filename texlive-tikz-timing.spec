@@ -1,6 +1,6 @@
 Name:		texlive-tikz-timing
 Version:	64967
-Release:	1
+Release:	2
 Summary:	Easy generation of timing diagrams as tikz pictures
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pgf/contrib/tikz-timing
