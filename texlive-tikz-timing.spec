@@ -3,7 +3,7 @@ Version:	64967
 Release:	2
 Summary:	Easy generation of timing diagrams as tikz pictures
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/graphics/pgf/contrib/tikz-timing
+URL:		https://www.ctan.org/tex-archive/graphics/pgf/contrib/tikz-timing
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tikz-timing.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/tikz-timing.doc.r%{version}.tar.xz
